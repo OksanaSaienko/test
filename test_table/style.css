@@ -1,0 +1,26 @@
+.container {
+    width: min(1440px, 100% - 60px);
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    position: relative;
+}
+
+.sidebar {
+
+    display: flex;
+    flex-direction: column;
+    max-width: 306px;
+    height: 100%;
+    background: #444;
+    ;
+    justify-content: space-between;
+}
+
+.page {
+    flex-basis: 1134px;
+    flex-shrink: 1;
+    background-color: #eee435;
+    padding-left: 71px;
+    height: 100%;
+}
